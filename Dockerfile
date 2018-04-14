@@ -10,4 +10,4 @@ WORKDIR /app
 EXPOSE 5000
 
 ENTRYPOINT [ "python" ]
-CMD ["flask-crawler/hello_world.py"]
+CMD ["flask-demo/hello_world.py"]
