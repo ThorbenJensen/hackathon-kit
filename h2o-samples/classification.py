@@ -20,3 +20,7 @@ aml = H2OAutoML(max_runtime_secs=30)
 aml.train(y='class',
           training_frame=train,
           validation_frame=test)
+
+# examine best models
+aml.leaderboard
+aml.leader
