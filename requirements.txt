@@ -3,3 +3,4 @@ flask==0.12.02
 pandas==0.20.2
 h2o==3.16.0.1
 matplotlib==2.2.2
+textblob-de==0.4.2
